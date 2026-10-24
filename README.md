@@ -29,143 +29,83 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
 
 <table>
 <tr>
-<td>
-
-### 🏥 Carexes — Hospital Management Platform
-
-<sub><b>NestJS · TypeScript · gRPC · MongoDB · MinIO · Kubernetes</b> &nbsp;|&nbsp; Angular frontend in progress</sub>
-
-<p align="center">
-  <a href="https://github.com/SELVAKUMARI-737/Carexes"><img src="assets/Hospital.png" alt="Illustrative dashboard preview for the Carexes hospital management platform" width="100%" /></a>
-  <br/>
-  <sub><i>Illustrative dashboard preview</i></sub>
-</p>
-
-A microservices-based hospital management backend: a REST API gateway talks to independent auth and patient services over gRPC.
-
-- 🔗 **API gateway** exposes REST endpoints and forwards requests to services using shared **gRPC** `.proto` contracts
-- 🔐 **Auth service** handles registration and login with **bcrypt**-hashed passwords and **JWT** access tokens
-- 🩺 **Patient service** creates patient records in **MongoDB** and stores uploaded medical reports in **MinIO** (S3-compatible storage)
-- ☸️ **Kubernetes** manifests with **Istio** gateway routing and strict mTLS between services
-- ⚙️ **GitHub Actions** CI builds every service on each push and pull request
-- 🅰️ Angular frontend: *in progress*
-
-<p>
-<img src="https://img.shields.io/badge/NestJS-0B1220?style=flat-square&logo=nestjs&logoColor=00E5FF" alt="NestJS" />
-<img src="https://img.shields.io/badge/TypeScript-0B1220?style=flat-square&logo=typescript&logoColor=00E5FF" alt="TypeScript" />
-<img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=00E5FF" alt="gRPC" />
-<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-<img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO" />
-<img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT" />
-<img src="https://img.shields.io/badge/Kubernetes-0B1220?style=flat-square&logo=kubernetes&logoColor=00E5FF" alt="Kubernetes" />
-<img src="https://img.shields.io/badge/Istio-0B1220?style=flat-square&logo=istio&logoColor=00E5FF" alt="Istio" />
-<img src="https://img.shields.io/badge/GitHub_Actions-0B1220?style=flat-square&logo=githubactions&logoColor=00E5FF" alt="GitHub Actions" />
-</p>
-
-📂 <a href="https://github.com/SELVAKUMARI-737/Carexes"><b>View Repository</b></a>
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td>
-
-### 💰 Personal Expense Tracker — Finly
-
-<sub><b>Node.js · Express · MongoDB · Chart.js · Groq AI</b></sub>
-
-<p align="center">
-  <a href="https://github.com/SELVAKUMARI-737/finly"><img src="assets/Expense%20Tracker.png" alt="Illustrative dashboard preview for the Finly personal expense tracker" width="100%" /></a>
-  <br/>
-  <sub><i>Illustrative dashboard preview</i></sub>
-</p>
-
-A full-stack expense tracker with a REST API, MongoDB storage, charts, and an AI assistant.
-
-- 🔐 **Signup and login** with **bcrypt**-hashed passwords
-- 🧾 Add, edit and delete expenses with merchant, category, amount, date and an optional **receipt upload**
-- 💼 **Salary tracking** alongside expenses
-- 📊 Per-user **dashboard** with **Chart.js** charts and **PDF export**
-- 🤖 **AI assistant** powered by the **Groq** API
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
-<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Chart.js-0B1220?style=flat-square&logo=chartdotjs&logoColor=00E5FF" alt="Chart.js" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=00E5FF" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/JavaScript-0B1220?style=flat-square&logo=javascript&logoColor=00E5FF" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Groq-0B1220?style=flat-square&logoColor=00E5FF" alt="Groq" />
-</p>
-
-📂 <a href="https://github.com/SELVAKUMARI-737/finly"><b>View Repository</b></a>
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
 <td width="50%" valign="top">
-
-### 🎟️ Campus Event Management
-
-<sub><b>Node.js · Express · MongoDB · QR Codes</b></sub>
-
-<p align="center">
-  <a href="https://github.com/SELVAKUMARI-737/campus-event-management"><img src="assets/campus.png" alt="Illustrative dashboard preview for the Campus Event Management system" width="100%" /></a>
-  <br/>
-  <sub><i>Illustrative dashboard preview</i></sub>
-</p>
-
-Event portal ("ZVENT") with separate student and admin experiences.
-
-- 🔐 Role-based access for **students** and **admins** with session login and **bcrypt**
-- 🗓️ Admins create, edit and delete events and post announcements
-- ✅ Students register for events with a **capacity check**
-- 📱 **QR code** generated per registration; admins scan it to check attendees in
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
-<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=00E5FF" alt="Tailwind CSS" />
-</p>
-
-📂 <a href="https://github.com/SELVAKUMARI-737/campus-event-management"><b>View Repository</b></a>
-
+  <h3>🏥 Carexes — Hospital Management Platform</h3>
+  <p align="center"><img src="assets/Hospital.png" alt="Illustrative dashboard preview of the Carexes hospital management platform" width="100%" /><br/><sub><i>Illustrative dashboard preview</i></sub></p>
+  <p>Microservices backend: a REST gateway talking to auth and patient services over gRPC. Angular frontend in progress.</p>
+  <ul>
+    <li>REST <b>API gateway</b> calling auth and patient services over <b>gRPC</b></li>
+    <li>Register/login with <b>bcrypt</b> and <b>JWT</b></li>
+    <li>Patient records in <b>MongoDB</b>, reports stored in <b>MinIO</b></li>
+    <li><b>Kubernetes</b> + <b>Istio</b> (mTLS) manifests and <b>GitHub Actions</b> CI</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/NestJS-0B1220?style=flat-square&logo=nestjs&logoColor=00E5FF" alt="NestJS" />
+    <img src="https://img.shields.io/badge/TypeScript-0B1220?style=flat-square&logo=typescript&logoColor=00E5FF" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=00E5FF" alt="gRPC" />
+    <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO" />
+  </p>
+  <p><a href="https://github.com/SELVAKUMARI-737/Carexes"><b>📂 View Repository →</b></a></p>
 </td>
 <td width="50%" valign="top">
-
-### 🧭 NEXTHIRE — Application Tracking System
-
-<sub><b>React · Vite · Node.js · Express · MongoDB</b></sub>
-
-<p align="center">
-  <a href="https://github.com/SELVAKUMARI-737/NEXTHIRE"><img src="assets/tracking.png" alt="Illustrative dashboard preview for the NEXTHIRE application tracking system" width="100%" /></a>
-  <br/>
-  <sub><i>Illustrative dashboard preview</i></sub>
-</p>
-
-A job-application tracker with a React frontend and a JWT-secured REST API.
-
-- 🔐 **JWT** register/login with **bcrypt** and **express-validator** request validation
-- 📝 Create, view, update and delete job applications (title, company, location, salary)
-- 🏷️ Track status: **Applied · Interview · Rejected · Selected**
-- 🛡️ **React Router** protected routes on the frontend
-
-<p>
-<img src="https://img.shields.io/badge/React-0B1220?style=flat-square&logo=react&logoColor=00E5FF" alt="React" />
-<img src="https://img.shields.io/badge/Vite-0B1220?style=flat-square&logo=vite&logoColor=00E5FF" alt="Vite" />
-<img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
-<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-<img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT" />
-</p>
-
-📂 <a href="https://github.com/SELVAKUMARI-737/NEXTHIRE"><b>View Repository</b></a>
-
+  <h3>💰 Personal Expense Tracker — Finly</h3>
+  <p align="center"><img src="assets/Expense%20Tracker.png" alt="Illustrative dashboard preview of the Finly personal expense tracker" width="100%" /><br/><sub><i>Illustrative dashboard preview</i></sub></p>
+  <p>Full-stack expense tracker with a REST API, MongoDB storage, charts and an AI assistant.</p>
+  <ul>
+    <li>Signup/login with <b>bcrypt</b>-hashed passwords</li>
+    <li>Add, edit and delete expenses with optional <b>receipt upload</b></li>
+    <li>Salary tracking and a <b>Chart.js</b> dashboard with <b>PDF export</b></li>
+    <li><b>AI assistant</b> powered by the <b>Groq</b> API</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
+    <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/Chart.js-0B1220?style=flat-square&logo=chartdotjs&logoColor=00E5FF" alt="Chart.js" />
+    <img src="https://img.shields.io/badge/Groq-0B1220?style=flat-square&logoColor=00E5FF" alt="Groq" />
+  </p>
+  <p><a href="https://github.com/SELVAKUMARI-737/finly"><b>📂 View Repository →</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3>🎟️ Campus Event Management</h3>
+  <p align="center"><img src="assets/campus.png" alt="Illustrative dashboard preview of the Campus Event Management system" width="100%" /><br/><sub><i>Illustrative dashboard preview</i></sub></p>
+  <p>Event portal (ZVENT) with separate student and admin experiences.</p>
+  <ul>
+    <li><b>Student</b> and <b>admin</b> roles with session login and <b>bcrypt</b></li>
+    <li>Admins create, edit and delete events and post announcements</li>
+    <li>Students register for events with a <b>capacity check</b></li>
+    <li><b>QR code</b> per registration, scanned by admins for check-in</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
+    <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=00E5FF" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/QR_Codes-0B1220?style=flat-square&logoColor=00E5FF" alt="QR Codes" />
+  </p>
+  <p><a href="https://github.com/SELVAKUMARI-737/campus-event-management"><b>📂 View Repository →</b></a></p>
+</td>
+<td width="50%" valign="top">
+  <h3>🧭 NEXTHIRE — Application Tracking System</h3>
+  <p align="center"><img src="assets/tracking.png" alt="Illustrative dashboard preview of the NEXTHIRE application tracking system" width="100%" /><br/><sub><i>Illustrative dashboard preview</i></sub></p>
+  <p>Job-application tracker with a React frontend and a JWT-secured REST API.</p>
+  <ul>
+    <li><b>JWT</b> register/login with <b>bcrypt</b> and <b>express-validator</b></li>
+    <li>Create, view, update and delete job applications</li>
+    <li>Status tracking: <b>Applied · Interview · Rejected · Selected</b></li>
+    <li><b>React</b> + <b>Vite</b> frontend with protected routes</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/React-0B1220?style=flat-square&logo=react&logoColor=00E5FF" alt="React" />
+    <img src="https://img.shields.io/badge/Vite-0B1220?style=flat-square&logo=vite&logoColor=00E5FF" alt="Vite" />
+    <img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
+    <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT" />
+  </p>
+  <p><a href="https://github.com/SELVAKUMARI-737/NEXTHIRE"><b>📂 View Repository →</b></a></p>
 </td>
 </tr>
 </table>
