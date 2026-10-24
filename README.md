@@ -5,22 +5,23 @@
 </div>
 
 <p align="center">
-  <b>Entry-level Full Stack &amp; Backend Developer</b> &nbsp;·&nbsp; NestJS · TypeScript · React · Node.js
+  <b>Entry-Level Full Stack &amp; Backend Developer</b> &nbsp;|&nbsp; NestJS · TypeScript · React · Node.js
   <br/>
   <sub>📍 Chennai, Tamil Nadu, India</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/SELVAKUMARI-737"><img src="https://img.shields.io/badge/GitHub-SELVAKUMARI--737-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1220" alt="GitHub profile" /></a>
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6&labelColor=0B1220" alt="LinkedIn profile" /></a>
-  <a href="mailto:kselvakumari737@gmail.com"><img src="https://img.shields.io/badge/Email-kselvakumari737%40gmail.com-0B1220?style=for-the-badge&logo=gmail&logoColor=F472B6&labelColor=0B1220" alt="Send an email" /></a>
+  <a href="https://github.com/SELVAKUMARI-737"><img src="https://img.shields.io/badge/GitHub-SELVAKUMARI--737-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub profile" /></a>
+  <a href="https://selvakumari-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0B1220?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Portfolio website" /></a>
+  <a href="https://linkedin.com/in/selvakumari-sk/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn profile" /></a>
+  <a href="mailto:kselvakumari737@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-0B1220?style=for-the-badge&logo=gmail&logoColor=F472B6" alt="Email Selvakumari" /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
 ## 👩‍💻 About Me
 
-I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with hands-on software development internship experience in **NestJS/TypeScript backends** and **MERN-stack applications**. I enjoy understanding existing codebases, debugging issues, integrating APIs, and turning ideas into practical applications. I'm looking for an entry-level Full Stack or Backend Developer role where I can contribute to real products and keep growing.
+I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with internship experience in **NestJS/TypeScript backends** and **MERN-stack applications**. I like exploring existing codebases, debugging, integrating APIs, and turning ideas into working full-stack applications. I'm looking for an entry-level Full Stack or Backend Developer role where I can contribute to real products and keep growing.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
@@ -32,32 +33,36 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with h
 
 ### 🏥 Carexes — Hospital Management Platform
 
-<sub><b>NestJS · TypeScript · gRPC · MongoDB · Docker</b> &nbsp;|&nbsp; Angular frontend in progress</sub>
+<sub><b>NestJS · TypeScript · gRPC · MongoDB · MinIO · Kubernetes</b> &nbsp;|&nbsp; Angular frontend in progress</sub>
 
 <p align="center">
-  <img src="assets/Hospital.png" alt="Carexes hospital management dashboard — UI preview concept visual" width="100%" />
+  <a href="https://github.com/SELVAKUMARI-737/Carexes"><img src="assets/Hospital.png" alt="Illustrative dashboard preview for the Carexes hospital management platform" width="100%" /></a>
   <br/>
-  <sub><i>UI preview (concept visual), not a screenshot of a deployed application.</i></sub>
+  <sub><i>Illustrative dashboard preview</i></sub>
 </p>
 
-A microservices-oriented hospital management project that explores service-to-service communication, authentication, and containerised development.
+A microservices-based hospital management backend: a REST API gateway talks to independent auth and patient services over gRPC.
 
-- 🧩 Microservices-oriented backend built with **NestJS** and **TypeScript**
-- 🔗 **gRPC**-based communication between services
-- 🔐 Authentication for protected access
-- 🗄️ **MongoDB** for data storage
-- 🐳 **Docker**-based development environment
-- 🅰️ Angular frontend currently being built *(in progress, not yet complete)*
+- 🔗 **API gateway** exposes REST endpoints and forwards requests to services using shared **gRPC** `.proto` contracts
+- 🔐 **Auth service** handles registration and login with **bcrypt**-hashed passwords and **JWT** access tokens
+- 🩺 **Patient service** creates patient records in **MongoDB** and stores uploaded medical reports in **MinIO** (S3-compatible storage)
+- ☸️ **Kubernetes** manifests with **Istio** gateway routing and strict mTLS between services
+- ⚙️ **GitHub Actions** CI builds every service on each push and pull request
+- 🅰️ Angular frontend: *in progress*
 
 <p>
 <img src="https://img.shields.io/badge/NestJS-0B1220?style=flat-square&logo=nestjs&logoColor=00E5FF" alt="NestJS" />
 <img src="https://img.shields.io/badge/TypeScript-0B1220?style=flat-square&logo=typescript&logoColor=00E5FF" alt="TypeScript" />
 <img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=00E5FF" alt="gRPC" />
 <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Docker-0B1220?style=flat-square&logo=docker&logoColor=00E5FF" alt="Docker" />
+<img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO" />
+<img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT" />
+<img src="https://img.shields.io/badge/Kubernetes-0B1220?style=flat-square&logo=kubernetes&logoColor=00E5FF" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Istio-0B1220?style=flat-square&logo=istio&logoColor=00E5FF" alt="Istio" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0B1220?style=flat-square&logo=githubactions&logoColor=00E5FF" alt="GitHub Actions" />
 </p>
 
-📂 <a href="YOUR_CAREXES_REPOSITORY_URL"><b>View repository</b></a>
+📂 <a href="https://github.com/SELVAKUMARI-737/Carexes"><b>View Repository</b></a>
 
 </td>
 </tr>
@@ -67,33 +72,99 @@ A microservices-oriented hospital management project that explores service-to-se
 <tr>
 <td>
 
-### 💰 Personal Expense Tracker
+### 💰 Personal Expense Tracker — Finly
 
-<sub><b>React · Node.js · Express · MongoDB · Chart.js</b></sub>
+<sub><b>Node.js · Express · MongoDB · Chart.js · Groq AI</b></sub>
 
 <p align="center">
-  <img src="assets/Expense%20Tracker.png" alt="Personal Expense Tracker dashboard — UI preview concept visual" width="100%" />
+  <a href="https://github.com/SELVAKUMARI-737/finly"><img src="assets/Expense%20Tracker.png" alt="Illustrative dashboard preview for the Finly personal expense tracker" width="100%" /></a>
   <br/>
-  <sub><i>UI preview (concept visual), not a screenshot of a deployed application.</i></sub>
+  <sub><i>Illustrative dashboard preview</i></sub>
 </p>
 
-A full-stack application for tracking personal expenses, with a REST API backend, database persistence, visual analytics, and AI-generated insights.
+A full-stack expense tracker with a REST API, MongoDB storage, charts, and an AI assistant.
 
-- 🔌 **REST APIs** built with Node.js and Express
-- 🗄️ **MongoDB** database integration
-- 📊 Data visualisation with **Chart.js**
-- 🤖 AI-powered spending insights
-- ⚛️ **React** frontend
+- 🔐 **Signup and login** with **bcrypt**-hashed passwords
+- 🧾 Add, edit and delete expenses with merchant, category, amount, date and an optional **receipt upload**
+- 💼 **Salary tracking** alongside expenses
+- 📊 Per-user **dashboard** with **Chart.js** charts and **PDF export**
+- 🤖 **AI assistant** powered by the **Groq** API
 
 <p>
-<img src="https://img.shields.io/badge/React-0B1220?style=flat-square&logo=react&logoColor=00E5FF" alt="React" />
 <img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
 <img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
 <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
 <img src="https://img.shields.io/badge/Chart.js-0B1220?style=flat-square&logo=chartdotjs&logoColor=00E5FF" alt="Chart.js" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=00E5FF" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/JavaScript-0B1220?style=flat-square&logo=javascript&logoColor=00E5FF" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Groq-0B1220?style=flat-square&logoColor=00E5FF" alt="Groq" />
 </p>
 
-📂 <a href="YOUR_EXPENSE_TRACKER_REPOSITORY_URL"><b>View repository</b></a>
+📂 <a href="https://github.com/SELVAKUMARI-737/finly"><b>View Repository</b></a>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎟️ Campus Event Management
+
+<sub><b>Node.js · Express · MongoDB · QR Codes</b></sub>
+
+<p align="center">
+  <a href="https://github.com/SELVAKUMARI-737/campus-event-management"><img src="assets/campus.png" alt="Illustrative dashboard preview for the Campus Event Management system" width="100%" /></a>
+  <br/>
+  <sub><i>Illustrative dashboard preview</i></sub>
+</p>
+
+Event portal ("ZVENT") with separate student and admin experiences.
+
+- 🔐 Role-based access for **students** and **admins** with session login and **bcrypt**
+- 🗓️ Admins create, edit and delete events and post announcements
+- ✅ Students register for events with a **capacity check**
+- 📱 **QR code** generated per registration; admins scan it to check attendees in
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=00E5FF" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
+<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=00E5FF" alt="Tailwind CSS" />
+</p>
+
+📂 <a href="https://github.com/SELVAKUMARI-737/campus-event-management"><b>View Repository</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 NEXTHIRE — Application Tracking System
+
+<sub><b>React · Vite · Node.js · Express · MongoDB</b></sub>
+
+<p align="center">
+  <a href="https://github.com/SELVAKUMARI-737/NEXTHIRE"><img src="assets/tracking.png" alt="Illustrative dashboard preview for the NEXTHIRE application tracking system" width="100%" /></a>
+  <br/>
+  <sub><i>Illustrative dashboard preview</i></sub>
+</p>
+
+A job-application tracker with a React frontend and a JWT-secured REST API.
+
+- 🔐 **JWT** register/login with **bcrypt** and **express-validator** request validation
+- 📝 Create, view, update and delete job applications (title, company, location, salary)
+- 🏷️ Track status: **Applied · Interview · Rejected · Selected**
+- 🛡️ **React Router** protected routes on the frontend
+
+<p>
+<img src="https://img.shields.io/badge/React-0B1220?style=flat-square&logo=react&logoColor=00E5FF" alt="React" />
+<img src="https://img.shields.io/badge/Vite-0B1220?style=flat-square&logo=vite&logoColor=00E5FF" alt="Vite" />
+<img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=00E5FF" alt="Express" />
+<img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+<img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT" />
+</p>
+
+📂 <a href="https://github.com/SELVAKUMARI-737/NEXTHIRE"><b>View Repository</b></a>
 
 </td>
 </tr>
@@ -105,7 +176,7 @@ A full-stack application for tracking personal expenses, with a REST API backend
 
 <table>
 <tr>
-<td width="22%"><b>Languages</b></td>
+<td width="24%"><b>Languages</b></td>
 <td>
 <img src="https://img.shields.io/badge/JavaScript-0B1220?style=flat-square&logo=javascript&logoColor=00E5FF" alt="JavaScript" />
 <img src="https://img.shields.io/badge/TypeScript-0B1220?style=flat-square&logo=typescript&logoColor=00E5FF" alt="TypeScript" />
@@ -129,7 +200,7 @@ A full-stack application for tracking personal expenses, with a REST API backend
 <img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=8B5CF6" alt="Node.js" />
 <img src="https://img.shields.io/badge/Express-0B1220?style=flat-square&logo=express&logoColor=8B5CF6" alt="Express" />
 <img src="https://img.shields.io/badge/NestJS-0B1220?style=flat-square&logo=nestjs&logoColor=8B5CF6" alt="NestJS" />
-<img src="https://img.shields.io/badge/REST-0B1220?style=flat-square&logo=fastapi&logoColor=8B5CF6" alt="REST" />
+<img src="https://img.shields.io/badge/REST-0B1220?style=flat-square&logoColor=8B5CF6" alt="REST" />
 <img src="https://img.shields.io/badge/GraphQL-0B1220?style=flat-square&logo=graphql&logoColor=8B5CF6" alt="GraphQL" />
 <img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=8B5CF6" alt="gRPC" />
 <img src="https://img.shields.io/badge/WebSockets-0B1220?style=flat-square&logo=socketdotio&logoColor=8B5CF6" alt="WebSockets" />
@@ -142,13 +213,14 @@ A full-stack application for tracking personal expenses, with a REST API backend
 <img src="https://img.shields.io/badge/MySQL-0B1220?style=flat-square&logo=mysql&logoColor=00E5FF" alt="MySQL" />
 <img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=flat-square&logo=postgresql&logoColor=00E5FF" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/Redis-0B1220?style=flat-square&logo=redis&logoColor=00E5FF" alt="Redis" />
-<img src="https://img.shields.io/badge/MinIO_(S3--compatible)-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO S3-compatible storage" />
+<img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO S3-compatible storage" />
 </td>
 </tr>
 <tr>
-<td><b>Authentication</b></td>
+<td><b>Authentication &amp; Security</b></td>
 <td>
 <img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=3B82F6" alt="JWT" />
+<img src="https://img.shields.io/badge/bcrypt-0B1220?style=flat-square&logoColor=3B82F6" alt="bcrypt" />
 </td>
 </tr>
 <tr>
@@ -164,13 +236,15 @@ A full-stack application for tracking personal expenses, with a REST API backend
 <td>
 <img src="https://img.shields.io/badge/Docker-0B1220?style=flat-square&logo=docker&logoColor=00E5FF" alt="Docker" />
 <img src="https://img.shields.io/badge/Docker_Compose-0B1220?style=flat-square&logo=docker&logoColor=00E5FF" alt="Docker Compose" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0B1220?style=flat-square&logo=githubactions&logoColor=00E5FF" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Kubernetes-basics-0B1220?style=flat-square&logo=kubernetes&logoColor=F472B6" alt="Kubernetes (basics)" />
 </td>
 </tr>
 <tr>
 <td><b>AI Integrations</b></td>
 <td>
+<img src="https://img.shields.io/badge/Groq_API-0B1220?style=flat-square&logoColor=F472B6" alt="Groq API" />
 <img src="https://img.shields.io/badge/Gemini_API-0B1220?style=flat-square&logo=googlegemini&logoColor=F472B6" alt="Gemini API" />
-<img src="https://img.shields.io/badge/Groq_API-0B1220?style=flat-square&logo=lightning&logoColor=F472B6" alt="Groq API" />
 </td>
 </tr>
 </table>
@@ -194,27 +268,17 @@ A full-stack application for tracking personal expenses, with a REST API backend
 ## 🎓 Education &amp; Certifications
 
 **B.Tech — Artificial Intelligence and Data Science** · 2026
-[ADD INSTITUTION NAME FROM RESUME]
+[ADD COLLEGE NAME FROM RESUME]
 
 **Certifications:** [ADD CERTIFICATIONS FROM RESUME, OR DELETE THIS LINE]
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
-## 🛠️ Engineering Practices
-
-- 🔍 Exploring unfamiliar codebases and tracing issues to their root cause
-- 🐞 Debugging and fixing backend defects
-- ✅ Validating API behaviour with Postman
-- 🌿 Version control with Git and GitHub
-- 🐳 Reproducible local environments with Docker and Docker Compose
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
-
 ## 🎯 Current Focus
 
-- 🅰️ **Learning Angular** and building an Angular frontend for Carexes *(in progress)*
-- 🧪 Strengthening full-stack development and testing practices
-- 🧠 Practising data structures and algorithms for technical interviews
+- 🅰️ **Learning Angular** and building the Angular frontend for Carexes *(in progress)*
+- 🔧 Improving backend and API quality, testing and debugging practices
+- 🧠 Preparing for technical interviews
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
@@ -223,11 +287,10 @@ A full-stack application for tracking personal expenses, with a REST API backend
 I'm open to suitable entry-level **Full Stack** and **Backend Developer** opportunities. If my work looks like a fit for your team, I'd love to hear from you.
 
 <p align="center">
-  <a href="https://github.com/SELVAKUMARI-737"><img src="https://img.shields.io/badge/GitHub-SELVAKUMARI--737-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1220" alt="GitHub profile" /></a>
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6&labelColor=0B1220" alt="LinkedIn profile" /></a>
-  <a href="mailto:kselvakumari737@gmail.com"><img src="https://img.shields.io/badge/Gmail-kselvakumari737%40gmail.com-0B1220?style=for-the-badge&logo=gmail&logoColor=F472B6&labelColor=0B1220" alt="Send an email" /></a>
+  <a href="https://github.com/SELVAKUMARI-737"><img src="https://img.shields.io/badge/GitHub-SELVAKUMARI--737-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub profile" /></a>
+  <a href="https://selvakumari-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0B1220?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Portfolio website" /></a>
+  <a href="https://linkedin.com/in/selvakumari-sk/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn profile" /></a>
+  <a href="mailto:kselvakumari737@gmail.com"><img src="https://img.shields.io/badge/Email-kselvakumari737%40gmail.com-0B1220?style=for-the-badge&logo=gmail&logoColor=F472B6" alt="Send an email to kselvakumari737@gmail.com" /></a>
 </p>
-
-<p align="center"><i>Learn continuously. Build thoughtfully. Improve every day.</i></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=90&section=footer" width="100%" alt="" />
