@@ -21,7 +21,12 @@
 
 ## 👩‍💻 About Me
 
-I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with internship experience in **NestJS/TypeScript backends** and **MERN-stack applications**. I like exploring existing codebases, debugging, integrating APIs, and turning ideas into working full-stack applications. I'm looking for an entry-level Full Stack or Backend Developer role where I can contribute to real products and keep growing.
+I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate from **Gnanamani College of Technology** (CGPA 8.3) with two internships in **NestJS/TypeScript backends** and **MERN-stack development**.
+
+- 🐞 Fixed **20+ bugs** in an existing NestJS/TypeScript e-commerce and delivery backend
+- 🗄️ Contributed to a **MinIO → SeaweedFS** storage migration using an S3-compatible API
+- 🤖 Integrated **Gemini** and **Groq** APIs for AI-powered features
+- 🎯 Looking for an entry-level **Full Stack or Backend Developer** role where I can contribute to real products and keep growing
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
@@ -37,14 +42,14 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
     <li>REST <b>API gateway</b> calling auth and patient services over <b>gRPC</b></li>
     <li>Register/login with <b>bcrypt</b> and <b>JWT</b></li>
     <li>Patient records in <b>MongoDB</b>, reports stored in <b>MinIO</b></li>
-    <li><b>Kubernetes</b> + <b>Istio</b> (mTLS) manifests and <b>GitHub Actions</b> CI</li>
+    <li><b>Docker</b>-containerised services with <b>Kubernetes</b> + <b>Istio</b> (mTLS) manifests and <b>GitHub Actions</b> CI</li>
   </ul>
   <p>
     <img src="https://img.shields.io/badge/NestJS-0B1220?style=flat-square&logo=nestjs&logoColor=00E5FF" alt="NestJS" />
     <img src="https://img.shields.io/badge/TypeScript-0B1220?style=flat-square&logo=typescript&logoColor=00E5FF" alt="TypeScript" />
     <img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=00E5FF" alt="gRPC" />
     <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
-    <img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO" />
+    <img src="https://img.shields.io/badge/Docker-0B1220?style=flat-square&logo=docker&logoColor=00E5FF" alt="Docker" />
   </p>
   <p><a href="https://github.com/SELVAKUMARI-737/Carexes"><b>📂 View Repository →</b></a></p>
 </td>
@@ -126,7 +131,10 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
 <tr>
 <td><b>Frontend</b></td>
 <td>
-<img src="https://img.shields.io/badge/React-0B1220?style=flat-square&logo=react&logoColor=3B82F6" alt="React" />
+<img src="https://img.shields.io/badge/React.js-0B1220?style=flat-square&logo=react&logoColor=3B82F6" alt="React.js" />
+<img src="https://img.shields.io/badge/React_Router-0B1220?style=flat-square&logo=reactrouter&logoColor=3B82F6" alt="React Router" />
+<img src="https://img.shields.io/badge/Axios-0B1220?style=flat-square&logo=axios&logoColor=3B82F6" alt="Axios" />
+<img src="https://img.shields.io/badge/Chart.js-0B1220?style=flat-square&logo=chartdotjs&logoColor=3B82F6" alt="Chart.js" />
 <img src="https://img.shields.io/badge/HTML5-0B1220?style=flat-square&logo=html5&logoColor=3B82F6" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-0B1220?style=flat-square&logo=css3&logoColor=3B82F6" alt="CSS3" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-0B1220?style=flat-square&logo=tailwindcss&logoColor=3B82F6" alt="Tailwind CSS" />
@@ -144,16 +152,19 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
 <img src="https://img.shields.io/badge/GraphQL-0B1220?style=flat-square&logo=graphql&logoColor=8B5CF6" alt="GraphQL" />
 <img src="https://img.shields.io/badge/gRPC-0B1220?style=flat-square&logo=grpc&logoColor=8B5CF6" alt="gRPC" />
 <img src="https://img.shields.io/badge/WebSockets-0B1220?style=flat-square&logo=socketdotio&logoColor=8B5CF6" alt="WebSockets" />
+<img src="https://img.shields.io/badge/Third--Party_API_Integration-0B1220?style=flat-square&logoColor=8B5CF6" alt="Third-party API integration" />
 </td>
 </tr>
 <tr>
 <td><b>Databases &amp; Storage</b></td>
 <td>
 <img src="https://img.shields.io/badge/MongoDB-0B1220?style=flat-square&logo=mongodb&logoColor=00E5FF" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Mongoose-0B1220?style=flat-square&logo=mongoose&logoColor=00E5FF" alt="Mongoose" />
 <img src="https://img.shields.io/badge/MySQL-0B1220?style=flat-square&logo=mysql&logoColor=00E5FF" alt="MySQL" />
 <img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=flat-square&logo=postgresql&logoColor=00E5FF" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/Redis-0B1220?style=flat-square&logo=redis&logoColor=00E5FF" alt="Redis" />
-<img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO S3-compatible storage" />
+<img src="https://img.shields.io/badge/MinIO-0B1220?style=flat-square&logo=minio&logoColor=00E5FF" alt="MinIO" />
+<img src="https://img.shields.io/badge/SeaweedFS_(S3--compatible)-0B1220?style=flat-square&logoColor=00E5FF" alt="SeaweedFS S3-compatible storage" />
 </td>
 </tr>
 <tr>
@@ -161,12 +172,15 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
 <td>
 <img src="https://img.shields.io/badge/JWT-0B1220?style=flat-square&logo=jsonwebtokens&logoColor=3B82F6" alt="JWT" />
 <img src="https://img.shields.io/badge/bcrypt-0B1220?style=flat-square&logoColor=3B82F6" alt="bcrypt" />
+<img src="https://img.shields.io/badge/NestJS_Guards-0B1220?style=flat-square&logo=nestjs&logoColor=3B82F6" alt="NestJS guards" />
 </td>
 </tr>
 <tr>
 <td><b>Testing &amp; Dev Tools</b></td>
 <td>
 <img src="https://img.shields.io/badge/Postman-0B1220?style=flat-square&logo=postman&logoColor=8B5CF6" alt="Postman" />
+<img src="https://img.shields.io/badge/Unit_%26_Integration_Testing-0B1220?style=flat-square&logoColor=8B5CF6" alt="Unit and integration testing" />
+<img src="https://img.shields.io/badge/Debugging-0B1220?style=flat-square&logoColor=8B5CF6" alt="Debugging" />
 <img src="https://img.shields.io/badge/Git-0B1220?style=flat-square&logo=git&logoColor=8B5CF6" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub-0B1220?style=flat-square&logo=github&logoColor=8B5CF6" alt="GitHub" />
 </td>
@@ -193,24 +207,34 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate with i
 
 ## 💼 Experience
 
-**Backend Developer Intern** — *Wentrite Technologies Pvt. Ltd.*
-- Investigated and fixed backend bugs in a NestJS and TypeScript codebase.
-- Validated API behaviour using Postman.
-- Contributed to S3-compatible storage integration and migration work.
+### Backend Developer Intern — Wentrite Technologies Pvt. Ltd.
+<sub>📍 Chennai &nbsp;·&nbsp; 📅 Jul 2026 – Sep 2026 &nbsp;·&nbsp; NestJS · TypeScript · GraphQL · MongoDB · Redis · SeaweedFS</sub>
 
-**MERN Stack Developer Intern** — *Cybernaut*
-- Worked on React and Node.js application development.
-- Implemented authentication and REST API functionality.
-- Worked with MongoDB and third-party API integration.
+- Fixed **20+ bugs** in existing modules of the BOBO NestJS/TypeScript backend (a multi-application e-commerce and delivery platform) and tested each fix to confirm expected behaviour.
+- Worked on **NestJS guards** for route protection and authorization; integrated and validated existing **GraphQL/REST** endpoints (MongoDB, Redis) using **Postman**.
+- Contributed to a **MinIO → SeaweedFS migration**: replaced MinIO-specific code with a shared `StorageService`/`StorageModule`, updated dependent modules, and configured SeaweedFS through its S3-compatible API (AWS SDK).
+- Validated uploads, presigned-URL downloads and deletion; worked on bucket-access policies, safe file extensions and private KYC storage; added and validated unit and S3-compatible tests; updated the Docker Compose dev config.
+- Worked on real-time **WebSockets** features and integrated the **Gemini API** for recipe generation.
+
+### MERN Stack Developer Intern — Cybernaut
+<sub>📍 Remote &nbsp;·&nbsp; 📅 Jun 2025 – Sep 2025 &nbsp;·&nbsp; React · Node.js · Express · MongoDB · JWT</sub>
+
+- Built **JWT + bcrypt.js** authentication, **15+ REST APIs** and Mongoose schemas for a MERN application, with a React.js frontend consuming the APIs.
+- Integrated the **Groq API** for intelligent recommendations; used Git feature branches and took part in code reviews.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
 ## 🎓 Education &amp; Certifications
 
-**B.Tech — Artificial Intelligence and Data Science** · 2026
-[ADD COLLEGE NAME FROM RESUME]
+**B.Tech — Artificial Intelligence and Data Science** · Gnanamani College of Technology · 2026 · **CGPA 8.3**
 
-**Certifications:** [ADD CERTIFICATIONS FROM RESUME, OR DELETE THIS LINE]
+**Certifications**
+- NPTEL — Internet of Things (IoT), 90%
+- ICT Academy — Java (2025)
+- GUVI — Python (2023)
+- GUVI — Git
+
+**Community:** Technical Volunteer, Devtoops Community — supported technical events and collaborative developer learning.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18" width="100%" alt="" />
 
