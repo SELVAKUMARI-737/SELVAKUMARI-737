@@ -210,7 +210,7 @@ I'm a **B.Tech Artificial Intelligence and Data Science (2026)** graduate from *
 ### Backend Developer Intern — Wentrite Technologies Pvt. Ltd.
 <sub>📍 Chennai &nbsp;·&nbsp; 📅 Jul 2026 – Sep 2026 &nbsp;·&nbsp; NestJS · TypeScript · GraphQL · MongoDB · Redis · SeaweedFS</sub>
 
-- Fixed **20+ bugs** in existing modules of the BOBO NestJS/TypeScript backend (a multi-application e-commerce and delivery platform) and tested each fix to confirm expected behaviour.
+- Fixed **40+ bugs** in existing modules of the BOBO NestJS/TypeScript backend (a multi-application e-commerce and delivery platform) and tested each fix to confirm expected behaviour.
 - Worked on **NestJS guards** for route protection and authorization; integrated and validated existing **GraphQL/REST** endpoints (MongoDB, Redis) using **Postman**.
 - Contributed to a **MinIO → SeaweedFS migration**: replaced MinIO-specific code with a shared `StorageService`/`StorageModule`, updated dependent modules, and configured SeaweedFS through its S3-compatible API (AWS SDK).
 - Validated uploads, presigned-URL downloads and deletion; worked on bucket-access policies, safe file extensions and private KYC storage; added and validated unit and S3-compatible tests; updated the Docker Compose dev config.
